@@ -6,8 +6,9 @@ const path = require("path");
  * @returns {Object} Configuration object with paths and mode info
  */
 function determinePaths() {
-  const rootHugoToml = path.join(__dirname, "../hugo.toml");
+  const rootHugoToml = path.join(__dirname, "../../../hugo.toml");
   const exampleSiteHugoToml = path.join(__dirname, "../exampleSite/hugo.toml");
+  const localHugoToml = path.join(__dirname, "../hugo.toml");
 
   if (fs.existsSync(exampleSiteHugoToml)) {
     // Theme setup mode - exampleSite structure exists
@@ -18,36 +19,28 @@ function determinePaths() {
       isThemeSetup: true,
     };
   } else if (fs.existsSync(rootHugoToml)) {
-    // Project setup mode - hugo.toml at root
-    try {
-      const hugoTomlContent = fs.readFileSync(rootHugoToml, "utf8");
-      const themeNameMatch = hugoTomlContent.match(
-        /^theme\s*=\s*["'\[]?"?([^"'\]]+)"?[\]"]?/m,
-      );
-
-      if (!themeNameMatch || !themeNameMatch[1]) {
-        throw new Error("Could not extract theme name from hugo.toml");
-      }
-
-      const themeName = themeNameMatch[1];
-      return {
-        hugoTomlPath: rootHugoToml,
-        themePath: path.join(__dirname, "../data/theme.json"),
-        outputPath: path.join(
-          __dirname,
-          `../themes/${themeName}/assets/css/generated-theme.css`,
-        ),
-        isThemeSetup: false,
-      };
-    } catch (error) {
-      throw new Error(`Failed to determine paths: ${error.message}`);
-    }
+    // Project setup mode - hugo.toml at project root (../../../hugo.toml)
+    return {
+      hugoTomlPath: rootHugoToml,
+      themePath: path.join(__dirname, "../data/theme.json"),
+      outputPath: path.join(__dirname, "../assets/css/generated-theme.css"),
+      isThemeSetup: false,
+    };
+  } else if (fs.existsSync(localHugoToml)) {
+    // Project setup mode - hugo.toml inside theme directory
+    return {
+      hugoTomlPath: localHugoToml,
+      themePath: path.join(__dirname, "../data/theme.json"),
+      outputPath: path.join(__dirname, "../assets/css/generated-theme.css"),
+      isThemeSetup: false,
+    };
   } else {
     throw new Error(
       "Could not determine setup mode: neither exampleSite/hugo.toml nor root hugo.toml found",
     );
   }
 }
+
 
 const { themePath, outputPath } = determinePaths();
 
