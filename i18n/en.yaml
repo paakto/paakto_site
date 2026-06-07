@@ -1,0 +1,24 @@
+home: Home
+read_more: Read More
+send: Send
+related_posts: Related Posts
+categories: Categories
+tags: Tags
+toc: Table of Contents
+share: Share
+search_input_placeholder: Search Post...
+search_no_results: No results for
+search_initial_message: Type something to search..
+search_navigate: to navigate
+search_select: to select
+search_close: to close
+
+# Contact Form Custom Fields
+form_sector: "Which sector do you belong to?"
+form_sector_public: "Public Sector (Governance)"
+form_sector_private: "Private Sector (Development)"
+form_stage: "What stage is your project in?"
+form_stage_planning: "Planning / Design"
+form_stage_development: "Development / Execution"
+form_stage_operation: "Operation / Maintenance"
+form_stage_conflict: "Conflict Resolution / Consultation"

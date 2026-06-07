@@ -1,0 +1,26 @@
+{
+  "name": "paakto-site",
+  "description": "hugo tailwindcss boilerplate",
+  "version": "3.5.1",
+  "license": "MIT",
+  "author": "zeon.studio",
+  "scripts": {
+    "dev": "concurrently \"node themes/hugoplate/scripts/themeGenerator.js --watch\" \"hugo server\"",
+    "build": "node themes/hugoplate/scripts/themeGenerator.js && hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
+    "preview": "node themes/hugoplate/scripts/themeGenerator.js && hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify",
+    "update-modules": "hugo mod clean --all && hugo mod get -u ./... && hugo mod tidy",
+    "format": "prettier -w .",
+    "postinstall": "node -e \"const fs=require('fs'),p='node_modules/.bin/tailwindcss';try{fs.lstatSync(p).isSymbolicLink()||((fs.unlinkSync(p)),fs.symlinkSync('../@tailwindcss/cli/dist/index.mjs',p))}catch(e){}\""
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/typography": "^0.5.19",
+    "concurrently": "^9.2.1",
+    "prettier": "^3.8.3",
+    "prettier-plugin-go-template": "0.0.15",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "tailwind-bootstrap-grid": "^7.0.0",
+    "tailwindcss": "^4.3.0"
+  }
+}

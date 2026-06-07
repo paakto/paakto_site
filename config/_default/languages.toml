@@ -1,0 +1,10 @@
+[es]
+  label = "Español"
+  contentDir = "content/es"
+  weight = 1
+
+[en]
+  label = "English"
+  contentDir = "content/en"
+  weight = 2
+
