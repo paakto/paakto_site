@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = 'if [ "$CONTEXT" = "production" ]; then npm run build -- -b "$URL"; else npm run build -- -b "$DEPLOY_PRIME_URL"; fi'
   publish = "public"
 
 [build.environment]
