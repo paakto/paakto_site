@@ -1,52 +1,51 @@
 ---
 # Banner
 banner:
-  title: "We transform conflict into agreements that regenerate the city."
-  content: "A participatory planning, urban design, and territorial intelligence platform. We help governments and developers embrace citizen conflict as a catalyst for growth and regeneration."
+  title: "We transform urban conflict into agreements that regenerate the city."
+  content: "A participatory planning and territorial intelligence platform. We make public consultation a continuous and strategic process for governments and developers."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Schedule Strategic Session"
+    label: "Schedule a Diagnostic Session"
     link: "/contact"
 
-# Features
+# Features (The B2B/B2G Value Proposition)
 features:
-  - title: "Data Science against Urban Heat"
+  - title: "Methodology: The Science Behind the Agreement"
     image: "/images/feature-1.png"
-    content: "We cross-reference Landsat 8 thermal imaging with demographic census data to pinpoint the most vulnerable urban heat islands. We don't impose solutions; we level the playing field through objective data."
+    content: "A system only works if the people within it believe in it. Participatory processes are not just talks; they are complex information-gathering systems. We use spatial and demographic data analysis to map social friction and chart viable development strategies."[cite: 1, 2]
     bulletpoints:
-      - "Satellite monitoring and detection of heat islands in Cancun."
-      - "Detailed thermal vulnerability mapping per block."
-      - "Focus on households with female-headed households and children."
+      - "Organizational audits and key stakeholder mapping."
+      - "Geospatial and citizen sentiment analysis."
+      - "Identification of friction zones and opportunity areas."
     button:
       enable: true
-      label: "View Methodology"
-      link: "/blog/urban-heat"
+      label: "Download Whitepaper"
+      link: "/blog/cost-of-urban-conflict"
 
-  - title: "Urban Design with a Care Perspective"
-    image: "/images/feature-2.png"
-    content: "Traditional urban planning has often ignored the daily commutes of female caretakers. At PAAKTO, we integrate a gender perspective to design spaces that protect everyday life."
+  - title: "Private Sector: Viability and Development"
+    image: "/images/feature-2.png" 
+    content: "We transform social risk into an asset for your development. We ensure that your infrastructure and urban design projects not only comply with regulations but are adopted, defended, and sustained by the community."[cite: 1, 2]
     bulletpoints:
-      - "Visibility of care journeys and pedestrian mobility."
-      - "Shaded public transit stops designed around real commutes."
-      - "Mitigation of thermal stress in high-pedestrian corridors."
+      - "Social viability strategies and risk mitigation."
+      - "Community impact management for infrastructure projects."
+      - "Regenerative urban design and placemaking."
     button:
       enable: false
       label: ""
       link: ""
 
-  - title: "Governance and Community Agreements"
+  - title: "Public Sector: Participatory Governance"
     image: "/images/feature-3.png"
-    content: "Cooling a city is an exercise in governance. We facilitate dialogue and forge bilateral agreements between merchants, neighbors, and government."
+    content: "We bridge the gap between high-level policy and grassroots participation. We modernize local governance to design agile, efficient public policies deeply centered on the real needs of the environment."
     bulletpoints:
-      - "Public consultation informed by open spatial data."
-      - "Co-design of bioclimatic bus stops and green corridors."
-      - "Mediation to regulate and clear sidewalks for pedestrian safety."
+      - "Strategic facilitation of urban development plans."
+      - "Community mediation and conflict resolution."
+      - "Design of participatory public policies informed by data."
     button:
       enable: false
       label: ""
       link: ""
 ---
 
-{{< dataviz title="Methodology: Thermal Sensitivity Index" subtitle="Cross-referencing Landsat 8 satellite imagery and demographic census data in Cancun." >}}
-
+{{< dataviz title="Technical Demonstration: Territorial Intelligence" subtitle="Application example: Cross-referencing Landsat 8 satellite imagery and sociodemographic data to identify climate vulnerability and chart care routes in the city." >}}
