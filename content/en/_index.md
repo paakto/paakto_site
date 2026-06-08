@@ -13,7 +13,7 @@ banner:
 features:
   - title: "Methodology: The Science Behind the Agreement"
     image: "/images/feature-1.png"
-    content: "A system only works if the people within it believe in it. Participatory processes are not just talks; they are complex information-gathering systems. We use spatial and demographic data analysis to map social friction and chart viable development strategies."[cite: 1, 2]
+    content: "A system only works if the people within it believe in it. Participatory processes are not just talks; they are complex information-gathering systems. We use spatial and demographic data analysis to map social friction and chart viable development strategies."
     bulletpoints:
       - "Organizational audits and key stakeholder mapping."
       - "Geospatial and citizen sentiment analysis."
@@ -25,7 +25,7 @@ features:
 
   - title: "Private Sector: Viability and Development"
     image: "/images/feature-2.png" 
-    content: "We transform social risk into an asset for your development. We ensure that your infrastructure and urban design projects not only comply with regulations but are adopted, defended, and sustained by the community."[cite: 1, 2]
+    content: "We transform social risk into an asset for your development. We ensure that your infrastructure and urban design projects not only comply with regulations but are adopted, defended, and sustained by the community."
     bulletpoints:
       - "Social viability strategies and risk mitigation."
       - "Community impact management for infrastructure projects."
