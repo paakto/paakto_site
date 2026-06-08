@@ -3,7 +3,7 @@
 banner:
   title: "Transformamos el conflicto urbano en acuerdos que regeneran la ciudad."
   content: "Plataforma de planeación participativa e inteligencia territorial. Hacemos de la consulta pública un proceso continuo y estratégico para gobiernos y desarrolladores."
-  image: "/images/banner.png"
+  image: "/images/banner.webp"
   button:
     enable: true
     label: "Agendar Sesión de Diagnóstico"
@@ -12,7 +12,7 @@ banner:
 # Features
 features:
   - title: "Metodología: La Ciencia Detrás del Acuerdo"
-    image: "/images/feature-1.png"
+    image: "/images/feature-1.webp"
     content: "Un sistema solo funciona si las personas dentro de él creen en él. Los procesos participativos no son solo pláticas; son sistemas complejos de recolección de información. Utilizamos análisis de datos espaciales y demográficos para mapear la fricción social y trazar estrategias de desarrollo viables."
     bulletpoints:
       - "Auditorías organizacionales y mapeo de actores clave."
@@ -24,7 +24,7 @@ features:
       link: "/blog/costo-conflicto-urbano"
 
   - title: "Sector Privado: Viabilidad y Desarrollo"
-    image: "/images/feature-2.png"
+    image: "/images/feature-2.webp"
     content: "Transformamos el riesgo social en un activo para tu desarrollo. Aseguramos que tus proyectos de infraestructura y diseño urbano no solo cumplan con la normativa, sino que sean adoptados, defendidos y sostenidos por la comunidad."
     bulletpoints:
       - "Estrategias de viabilidad social y mitigación de riesgos."
@@ -36,7 +36,7 @@ features:
       link: ""
 
   - title: "Sector Público: Gobernanza Participativa"
-    image: "/images/feature-3.png"
+    image: "/images/feature-3.webp"
     content: "Cerramos la brecha entre la política de alto nivel y la participación de base. Modernizamos la gobernanza local para diseñar políticas públicas ágiles, eficientes y profundamente centradas en las necesidades reales del entorno."
     bulletpoints:
       - "Facilitación estratégica de planes de desarrollo urbano."

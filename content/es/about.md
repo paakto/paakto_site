@@ -2,7 +2,7 @@
 title: "Nosotros"
 meta_title: "Sobre PAAKTO"
 description: "Conoce a PAAKTO: Ciencia de datos y codiseño participativo con perspectiva de género para mitigar el calor urbano en Cancún."
-image: "/images/about-image.png"
+image: "/images/about-image.webp"
 layout: "about"
 draft: false
 ---

@@ -2,7 +2,7 @@
 title: "About Us"
 meta_title: "About PAAKTO"
 description: "Meet PAAKTO: Data science and co-design with a gender perspective to mitigate urban heat islands in Cancun."
-image: "/images/about-image.png"
+image: "/images/about-image.webp"
 layout: "about"
 draft: false
 ---
