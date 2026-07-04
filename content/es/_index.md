@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "Transformamos el conflicto urbano en acuerdos que regeneran la ciudad."
+  title: "Acuerdos que regeneran la ciudad."
   content: "Plataforma de planeación participativa e inteligencia territorial. Hacemos de la consulta pública un proceso continuo y estratégico para gobiernos y desarrolladores."
   image: "/images/banner.webp"
   button:
